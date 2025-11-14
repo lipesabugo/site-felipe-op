@@ -1,0 +1,38 @@
+/*seletor de tag: aplica em todos os <body> */
+body {
+    font-family: arial, tahoma; /* define a fonte do texto*/
+    margin: 0; /* remove a margem padão navegador */
+    padding: 0; /* remove o preenchimento padrão do navegador */
+    background-color: #000000; /* cor de fundo clarinha para a pagina*/
+}
+
+/* seletor de tag: aplica em todos os <header> */
+header {
+    background-color: #000000; /* cor de fundo vermelha */
+    color: rgb(255, 177, 177); /*cor de texto branca */
+    padding: 20px; /* preenchimento interno */
+    text-align: center; /* alinha o texto ao centro */
+    background-image: url(https://i.pinimg.com/736x/4a/82/f4/4a82f49757e44d4513315cccd9e85c20.jpg);
+}
+
+header h1 {
+    font-size:2.5em; /* tamanho da fonte (2.5 vezes o tamanho padão) */ 
+}
+
+/* seletor de tag: aplica em todos os <main> */
+main {
+    max-width: 969px; /*largura maxima do conteudo */
+    margin: 20px; /*margem superior/inferior de 20px, centraliza horizontalmente */
+    background-color: #000000; /*sombra suave para a caixa */
+    padding: 30px; /*preenchimento interno*/
+    box-sizing: 0 0 10px; /* cantos arrendondados */
+}
+
+/* seletor de tag: aplica em todas imagens*/
+img {
+    max-width: 100%; /* garante que a imagem não ultrapasse a largura do conteiner */
+    height: auto; /*mantem a proporção da imagem*/
+    display: block; /*transforma a imagem em um elemento de bloco para poder centralizar */
+    margin: 20px auto; /*centraliza a imagem */
+    border-radius: 5px; /*cantos arendondados para a imagem */
+}
